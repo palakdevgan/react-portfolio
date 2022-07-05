@@ -1,15 +1,40 @@
-import React from 'react';
-import coverImage from "../../assets/cover/cover-image.png";
+import React, { useState } from 'react';
+import Nav from '../Nav';
+import About from '../About';
+import Contact from '../Contact';
+import Portfolio from '../Portfolio';
+import Resume from '../Resume';
 
 function Header() {
-  return (
-    <div className="container-fluid page-header mb-5">
-    <div className="d-flex flex-fill flex-row justify-content-evenly pt-0" style={{ height : "300px" }} >
-      <div className="d-inline-flex">
-      <img src={coverImage}  alt="cover" />
-      </div>
+  const [currentPage, setCurrentPage] = useState('About');
+
+  const renderPage = () => {
+    if (currentPage === 'About') {
+      return <About />;
+    }
+    if (currentPage === 'Contact') {
+      return <Contact />;
+    }
+    if (currentPage === 'Portfolio') {
+      return <Portfolio />;
+    }
+    return <Resume />;
+  };
+
+  const handlePageChange = (page) => setCurrentPage(page);
+
+  return(
+    <div>
+       <header className="flex-row px-1">
+      <h2>
+        <a data-testid="link" href="/">
+         Palak Devgan
+        </a>
+      </h2>
+        <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+        {renderPage()}
+        </header>
     </div>
-  </div>
   );
 }
 
