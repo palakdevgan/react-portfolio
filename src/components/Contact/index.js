@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
+import MovingText from 'react-moving-text'
 
 function ContactForm() {
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
@@ -37,8 +38,16 @@ function ContactForm() {
     }
 
     return (
-        <section className="about">
-            <h1 data-testid="h1tag">Contact me</h1>
+        <div className="about">
+            <h2>
+                <MovingText
+                    type="typewriter"
+                    iteration={1}
+                    dataText={[
+                        'Contact Me'
+                    ]}>
+                </MovingText>
+            </h2>
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="name">Name:</label>
@@ -59,7 +68,7 @@ function ContactForm() {
                 )}
                 <button data-testid="button" type="submit">Submit</button>
             </form>
-        </section>
+        </div>
     )
 }
 
