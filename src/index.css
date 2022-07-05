@@ -1,5 +1,3 @@
-
-
 main {
 	margin: 0 auto;
 	max-width: 90%;
@@ -19,20 +17,11 @@ main {
 
 }
 
-header {
-  position:fixed;
-  top:0;
-  width:100%;
-  height:40px;
-  background-color:#333;
-  padding:20px;
-}
 
 footer {
-  /* background-color: #333; */
   width: 100%;
   bottom: 0;
-  position: fixed;
+ 
 }
 
 .my-work{
@@ -44,7 +33,15 @@ footer {
   align-items: center;
   justify-content: space-between;
   
+  
 }
+
+.about{
+  margin: auto;
+  padding-bottom: 40px;
+  width: 80%;
+}
+
 .work-header {
   width: 100%
 }
@@ -54,16 +51,12 @@ footer {
 
 .work1-img{
   flex: 1;
-  opacity: 25%;
+  /* opacity: 25%; */
   width: 100%;
   height: 100%;
  
 }
-.work1-img:hover {
-  opacity: 100%;
-  transform: scale(1.3);
- 
-}
+
 
 #work {
   padding: 0px;
@@ -85,7 +78,8 @@ footer {
 }
 
 .work-a:hover .text{
-  display: none;
+  display: flex;
+  flex: wrap;
 
 }
 
@@ -114,24 +108,27 @@ footer {
 .text {
   position: absolute;
   bottom: 3px;
-  background: rgb(0, 0, 0); 
-  background: rgba(0, 0, 0, 0.6); 
+  background: rgb(0,0,0); 
+  background: rgba(0,0,0,0.6); 
   color: var(--tertiary-color);
   width: 100%;
-  padding-top: 5%;
+  height: 100%;
+  display:none;
 }
 
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 
 html,
 body {
   min-height: 100%;
+  
 }
 
 .avatar{
   border-radius: 50%;
+  margin: 1%;
 }
 
 body {
@@ -195,7 +192,8 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  color: var(--secondary);
+  text-decoration: none;
 }
 
 header {

@@ -8,10 +8,10 @@ function App() {
     <div>
        <Header>
         </Header>
-        <main>
+        {/* <main>
        
       
-       </main>
+       </main> */}
       <Footer></Footer>
     </div>
   );

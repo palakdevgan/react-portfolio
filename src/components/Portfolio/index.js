@@ -3,11 +3,11 @@ import Project from '../Project';
 
 function Portfolio() {
   return (
-    <section id="work" class="my-work">
-      <div class="work-header">
-        <h2 class="section-title primary-border">Work</h2>
+    <section id="work" className="my-work">
+      <div className="work-header">
+        <h2 className="section-title primary-border">Work</h2>
       </div>
-      <div class="work-flex">
+      <div className="work-flex">
         <Project />
       </div>
 

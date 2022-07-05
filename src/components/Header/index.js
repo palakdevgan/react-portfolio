@@ -17,6 +17,7 @@ function Header() {
     }
     if (currentPage === 'Portfolio') {
       return <Portfolio />;
+      
     }
     return <Resume />;
   };
@@ -24,7 +25,7 @@ function Header() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return(
-    <div>
+   <main>
        <header className="flex-row px-1">
       <h2>
         <a data-testid="link" href="/">
@@ -34,7 +35,7 @@ function Header() {
         <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
         {renderPage()}
         </header>
-    </div>
+        </main>
   );
 }
 
