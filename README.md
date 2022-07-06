@@ -1,4 +1,4 @@
-#  REACT-PORTFOLIO
+#  react-portfolio
 
 ## Purpose
 
@@ -21,10 +21,10 @@ To Visit App:
 `localhost:3000`  
 
 ## Screenshot
-![Screenshot]()
+![Screenshot](https://github.com/palakdevgan/react-portfolio/blob/main/src/assets/Screenshot/screenshot.jpg?raw=true)
 
 ## Website
-
+https://palakdevgan.github.io/react-portfolio/
 
 ## Contribution
 Made with ❤️ by Palak Devgan

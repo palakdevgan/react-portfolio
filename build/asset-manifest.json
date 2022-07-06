@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.b97a75f1.css",
+    "main.js": "/react-portfolio/static/js/main.5e28261f.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/Palak Devgan Resume.pdf": "/react-portfolio/static/media/Palak Devgan Resume.eb833190b37f6cdb493a.pdf",
+    "static/media/bootstrap-icons.woff?": "/react-portfolio/static/media/bootstrap-icons.7ff3ca6fa798de3f8ac2.woff",
+    "static/media/run-buddy.jpg": "/react-portfolio/static/media/run-buddy.f5541a24739c2b00deb0.jpg",
+    "static/media/likeit-listentoit.jpg": "/react-portfolio/static/media/likeit-listentoit.58d7b0cb38ff49c345e3.jpg",
+    "static/media/bootstrap-icons.woff2?": "/react-portfolio/static/media/bootstrap-icons.f2539a501be3a673de05.woff2",
+    "static/media/jackedinthebox.jpg": "/react-portfolio/static/media/jackedinthebox.f659a13affcba5f47c97.jpg",
+    "static/media/taskinator.jpg": "/react-portfolio/static/media/taskinator.93b26470e8ec7350b08f.jpg",
+    "static/media/coding-challenge.jpg": "/react-portfolio/static/media/coding-challenge.45e75044be937fd9c454.jpg",
+    "static/media/password-generator.jpg": "/react-portfolio/static/media/password-generator.a54010ed134c08eb51ad.jpg",
+    "static/media/Photo.jpg": "/react-portfolio/static/media/Photo.071ba008fa3a4a5c61ad.jpg",
+    "index.html": "/react-portfolio/index.html",
+    "main.b97a75f1.css.map": "/react-portfolio/static/css/main.b97a75f1.css.map",
+    "main.5e28261f.js.map": "/react-portfolio/static/js/main.5e28261f.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b97a75f1.css",
+    "static/js/main.5e28261f.js"
+  ]
+}
