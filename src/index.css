@@ -2,13 +2,15 @@ main {
 	margin: 0 auto;
 	max-width: 90%;
   padding: 50px 30px;
+ 
 }
 :root {
   --primary: #8c54ff;
-  --secondary: #F3A847;
+  --secondary: #a55265;
   --tertiary: #B12704;
-  --light: #fafafa;
-  --dark: #000000;
+  --light:#FFF8F0;
+  /* --dark:#0D1137; */
+  --dark:#1E1E24;
   --darker: #111111;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
@@ -17,11 +19,27 @@ main {
 
 }
 
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
 
 footer {
+  background-color: #92140C;
   width: 100%;
   bottom: 0;
- 
+  position: fixed;
+}
+
+.buttonHolder{
+  text-align: center;
 }
 
 .my-work{
@@ -51,7 +69,7 @@ footer {
 
 .work1-img{
   flex: 1;
-  /* opacity: 25%; */
+  /* opacity: 70%; */
   width: 100%;
   height: 100%;
  
@@ -110,7 +128,6 @@ footer {
   bottom: 3px;
   background: rgb(0,0,0); 
   background: rgba(0,0,0,0.6); 
-  color: var(--tertiary-color);
   width: 100%;
   height: 100%;
   display:none;
@@ -138,9 +155,9 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: .1em;
-  background: var(--dark);
+  background: var(--dark); 
   color: var(--light);
-  font-family: 'Poiret One', cursive;
+ font-family: 'Roboto', sans-serif;
 
 }
 
@@ -150,10 +167,14 @@ h3,
 h4,
 h5,
 h6 {
-  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
+}
+
+.projects{
+  color: var(--tertiary);
 }
 
 h1 {
@@ -298,6 +319,7 @@ textarea {
 .mx-2 {
   margin-right: var(--spacing-two);
   margin-left: var(--spacing-two);
+  
 }
 
 .my-1 {
@@ -374,7 +396,7 @@ textarea {
 }
 
 button {
-	background: var(--primary);
+	background: var(--secondary);
 	border: 0;
 	border-radius: 5px;
 	color: #fff;
@@ -387,7 +409,7 @@ button {
 
 a {
 	border-radius: 5px;
-	color: var(--primary);
+	color: var(--light);
 	font-weight: 600;
 	padding: 2px 4px;
 	margin-left: -2px;

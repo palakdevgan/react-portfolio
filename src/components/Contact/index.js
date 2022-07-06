@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
-import MovingText from 'react-moving-text'
 
 function ContactForm() {
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
@@ -39,34 +38,46 @@ function ContactForm() {
 
     return (
         <div className="about">
-            <h2>
-                <MovingText
-                    type="typewriter"
-                    iteration={1}
-                    dataText={[
-                        'Contact Me'
-                    ]}>
-                </MovingText>
-            </h2>
+            <h2>Contact Me</h2>
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div>
-                    <label htmlFor="name">Name:</label>
-                    <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
+                    <div className="col-25">
+                        <label htmlFor="name">Name:</label>
+                    </div>
+                    <div className="col-75">
+                        <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
+                    </div>
                 </div>
                 <div>
-                    <label htmlFor="email">Email address:</label>
-                    <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
+                    <div className="col-25">
+                        <label htmlFor="email">Email:</label>
+                    </div>
+                    <div className="col-75">
+                        <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
+                    </div>
                 </div>
                 <div>
-                    <label htmlFor="message">Message:</label>
-                    <textarea name="message" defaultValue={message} rows="5" onBlur={handleChange} />
+                    <div className="col-25">
+                        <label htmlFor="message">Message:</label>
+                    </div>
+                    <div className="col-75">
+                        <textarea name="message" defaultValue={message} rows="5" onBlur={handleChange} />
+                    </div>
                 </div>
+                <div className="buttonHolder">
                 {errorMessage && (
                     <div>
                         <p className="error-text">{errorMessage}</p>
                     </div>
                 )}
-                <button data-testid="button" type="submit">Submit</button>
+              
+              <button data-testid="button" type="submit">Submit</button>
+              
+              </div>
+               
+                 
+                  
+                
             </form>
         </div>
     )

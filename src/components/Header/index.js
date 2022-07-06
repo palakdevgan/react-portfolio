@@ -28,9 +28,7 @@ function Header() {
    <main>
        <header className="flex-row px-1">
       <h2>
-        <a data-testid="link" href="/">
-         Palak Devgan
-        </a>
+        <a data-testid="link" href="/">Palak Devgan</a>
       </h2>
         <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
         {renderPage()}
