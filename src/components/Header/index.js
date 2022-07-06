@@ -25,15 +25,17 @@ function Header() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return(
+    <>
+    <header className="flex-row px-1" id="hero">
+    <h2>
+      <a data-testid="link" href="/">Palak Devgan</a>
+    </h2>
+      <Nav currentPage={currentPage} handlePageChange={handlePageChange}/>
+      </header>
    <main>
-       <header className="flex-row px-1">
-      <h2>
-        <a data-testid="link" href="/">Palak Devgan</a>
-      </h2>
-        <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
-        {renderPage()}
-        </header>
-        </main>
+   {renderPage()}
+    </main>
+    </>
   );
 }
 

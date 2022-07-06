@@ -1,7 +1,7 @@
 main {
 	margin: 0 auto;
 	max-width: 90%;
-  padding: 50px 30px;
+  padding: 20px 30px;
  
 }
 :root {
@@ -19,16 +19,31 @@ main {
 
 }
 
+
+#hero{
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('../src/assets/cover/cover-image.png');
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height:150px;
+    
+}
+
 .col-25 {
-  float: left;
   width: 25%;
   margin-top: 6px;
 }
 
 .col-75 {
-  float: left;
   width: 75%;
   margin-top: 6px;
+}
+
+.row-input{
+  display: flex;
+  flex-direction: row;
+
 }
 
 footer {
@@ -157,7 +172,7 @@ body {
   letter-spacing: .1em;
   background: var(--dark); 
   color: var(--light);
- font-family: 'Roboto', sans-serif;
+  font-family: "Times New Roman", Times, serif;
 
 }
 
@@ -167,7 +182,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
@@ -285,7 +300,7 @@ nav  li {
 }
 
 textarea {
-	width: 600px;
+	width: 400px;
 	height: 120px;
 	border: 3px solid #cccccc;
 	padding: 5px;
@@ -419,4 +434,25 @@ a {
 
 .navActive {
   color: var(--secondary);
+}
+
+@media only screen and (max-width: 700px) {
+  textarea {
+    width: 100%;
+  }
+  .col-25 {
+    width: 100%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    width: 100%;
+    margin-top: 6px;
+  }
+  
+  .row-input{
+    display: flex;
+    flex-direction: column;
+  
+  }
 }
