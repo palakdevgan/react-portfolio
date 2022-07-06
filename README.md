@@ -21,7 +21,7 @@ To Visit App:
 `localhost:3000`  
 
 ## Screenshot
-![Screenshot](https://github.com/palakdevgan/react-portfolio/blob/main/src/assets/Screenshot/screenshot.jpg?raw=true)
+![Screenshot](https://github.com/palakdevgan/react-portfolio/blob/main/src/assets/Screenshot/screenshot1.jpg?raw=true)
 
 ## Website
 https://palakdevgan.github.io/react-portfolio/
