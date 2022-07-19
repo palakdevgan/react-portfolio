@@ -1,26 +1,29 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.8e2b9871.css",
-    "main.js": "/react-portfolio/static/js/main.28307773.js",
+    "main.css": "/react-portfolio/static/css/main.00d99e36.css",
+    "main.js": "/react-portfolio/static/js/main.af36be54.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
-    "static/media/Palak Devgan Resume.pdf": "/react-portfolio/static/media/Palak Devgan Resume.eb833190b37f6cdb493a.pdf",
+    "static/media/Palak Devgan Resume.pdf": "/react-portfolio/static/media/Palak Devgan Resume.24e397b4d0450411bf1b.pdf",
     "static/media/cover-image.png": "/react-portfolio/static/media/cover-image.ccd3f36c4f61cae30f39.png",
+    "static/media/mvc-tech-blog.jpg": "/react-portfolio/static/media/mvc-tech-blog.9843948b745dc569c620.jpg",
     "static/media/bootstrap-icons.woff?": "/react-portfolio/static/media/bootstrap-icons.7ff3ca6fa798de3f8ac2.woff",
     "static/media/run-buddy.jpg": "/react-portfolio/static/media/run-buddy.f5541a24739c2b00deb0.jpg",
     "static/media/likeit-listentoit.jpg": "/react-portfolio/static/media/likeit-listentoit.58d7b0cb38ff49c345e3.jpg",
     "static/media/bootstrap-icons.woff2?": "/react-portfolio/static/media/bootstrap-icons.f2539a501be3a673de05.woff2",
+    "static/media/weather-dashboard.jpg": "/react-portfolio/static/media/weather-dashboard.d89ad91f2d6e4e5e253b.jpg",
+    "static/media/mern-book-search-engine.jpg": "/react-portfolio/static/media/mern-book-search-engine.765df44861f5f147f234.jpg",
     "static/media/jackedinthebox.jpg": "/react-portfolio/static/media/jackedinthebox.f659a13affcba5f47c97.jpg",
     "static/media/taskinator.jpg": "/react-portfolio/static/media/taskinator.93b26470e8ec7350b08f.jpg",
     "static/media/coding-challenge.jpg": "/react-portfolio/static/media/coding-challenge.45e75044be937fd9c454.jpg",
     "static/media/password-generator.jpg": "/react-portfolio/static/media/password-generator.a54010ed134c08eb51ad.jpg",
     "static/media/Photo.jpg": "/react-portfolio/static/media/Photo.071ba008fa3a4a5c61ad.jpg",
     "index.html": "/react-portfolio/index.html",
-    "main.8e2b9871.css.map": "/react-portfolio/static/css/main.8e2b9871.css.map",
-    "main.28307773.js.map": "/react-portfolio/static/js/main.28307773.js.map",
+    "main.00d99e36.css.map": "/react-portfolio/static/css/main.00d99e36.css.map",
+    "main.af36be54.js.map": "/react-portfolio/static/js/main.af36be54.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e2b9871.css",
-    "static/js/main.28307773.js"
+    "static/css/main.00d99e36.css",
+    "static/js/main.af36be54.js"
   ]
 }
