@@ -7,7 +7,7 @@ function Resume() {
     <div className="about">
       <h2>Resume</h2>
 
-      <h5>Download my <a href={myresume} target="_blank"  rel="noopener noreferrer">resume</a></h5>
+      <h5>Download my resume <a href={myresume} target="_blank"  rel="noopener noreferrer">here</a></h5>
       <h5> <MovingText
         type="typewriter"
         iteration={1}

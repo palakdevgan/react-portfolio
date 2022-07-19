@@ -7,7 +7,11 @@ export default function About() {
       <h2>About Me</h2>
       <img src={avatarImage} alt="Avatar" className="avatar" />
       <p>
-        Currently I am a Full Stack Web Developer at Kinectrics NSS Inc. A proud holder of a first class MSc Degree in Computer Science from Lovely Professional University India and Certification in Full Stack Web Development from University of Toronto. I have been working in the computing sphere for the past 5 years.
+      I am a Full Stack Developer from Toronto, Ontario, Canada. I am a passionate🥇, creative🎨 and perceptive🔭 engineer 
+      with a hands-on approach to problem-solving and an unending thirst for knowledge🎓. 
+      Anything and everything that can be classified as technology💻 fascinates me. I am working as a Software Engineer and contributing to frontend and backend for building web apps.
+      I currently live in Toronto 🌉 and have recently completed Certification in Full Stack Web Development📈 from University of Toronto.
+      I follow a number of Tech Blogs🖱️. Other than that, I love solving puzzles🧩 and listening to music🎶.
       </p>
     </div>
   );

@@ -4,10 +4,10 @@ function Project() {
 
     const [projects] = useState([
         {
-            name: 'Run Buddy',
-            filename: 'run-buddy',
-            deployedApp: 'https://palakdevgan.github.io/run-buddy/',
-            github: 'https://github.com/palakdevgan/run-buddy',
+            name: 'Weather Dashboard',
+            filename: 'weather-dashboard',
+            deployedApp: 'https://palakdevgan.github.io/MyWeatherDashboard',
+            github: 'https://github.com/palakdevgan/MyWeatherDashboard',
         },
         {
             name: 'Jacked in the Box',
@@ -28,16 +28,16 @@ function Project() {
             github: 'https://github.com/palakdevgan/CodingQuizChallenge',
         },
         {
-            name: 'Password Generator',
-            filename: 'password-generator',
-            deployedApp: 'https://palakdevgan.github.io/friendly-parakeet/',
-            github: 'https://github.com/palakdevgan/friendly-parakeet',
+            name: 'MVC Tech Blog',
+            filename: 'mvc-tech-blog',
+            deployedApp: 'https://guarded-beyond-33669.herokuapp.com/',
+            github: 'https://github.com/palakdevgan/mvc-tech-blog',
         },
         {
-            name: 'Taskinator',
-            filename: 'taskinator',
-            deployedApp: 'https://palakdevgan.github.io/taskinator/',
-            github: 'https://github.com/palakdevgan/taskinator',
+            name: 'MERN Book Search Engine',
+            filename: 'mern-book-search-engine',
+            deployedApp: 'https://abracadabrant-saucisson-34867.herokuapp.com/',
+            github: 'https://github.com/palakdevgan/mern-book-search-engine',
         }
     ]);
 

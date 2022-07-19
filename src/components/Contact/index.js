@@ -39,7 +39,8 @@ function ContactForm() {
     return (
         <div className="about">
             <h2>Contact Me</h2>
-            <form id="contact-form" onSubmit={handleSubmit}>
+            <h4>You can reach me at:</h4>
+            {/* <form id="contact-form" onSubmit={handleSubmit}>
                 <div className='row-input'>
                     <div className="col-25">
                         <label htmlFor="name">Name:</label>
@@ -78,7 +79,23 @@ function ContactForm() {
                  
                   
                 
-            </form>
+            </form> */}
+             <div className='row-input'>
+             <div className="col-25">
+                <label>Email:</label>
+            </div>
+            <div className="col-75">
+            <label>palakdevgan7@gmail.com</label>
+            </div>
+             </div>
+             <div className='row-input'>
+             <div className="col-25">
+                <label>Phone Number:</label>
+            </div>
+            <div className="col-75">
+            <label>416-897-3391</label>
+            </div>
+             </div>
         </div>
     )
 }
