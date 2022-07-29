@@ -22,10 +22,10 @@ function Project() {
             github: 'https://github.com/superuser06/likeit-listentoit',
         },
         {
-            name: 'Coding Challenge',
-            filename: 'coding-challenge',
-            deployedApp: 'https://palakdevgan.github.io/CodingQuizChallenge/',
-            github: 'https://github.com/palakdevgan/CodingQuizChallenge',
+            name: 'Smart Shop',
+            filename: 'smart-shop',
+            deployedApp: 'https://lit-savannah-41865.herokuapp.com/',
+            github: 'https://github.com/Project-3-Group-9/smart-shop',
         },
         {
             name: 'MVC Tech Blog',
