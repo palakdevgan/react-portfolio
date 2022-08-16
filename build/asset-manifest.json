@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.00d99e36.css",
-    "main.js": "/react-portfolio/static/js/main.af36be54.js",
+    "main.js": "/react-portfolio/static/js/main.a809de33.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/Palak Devgan Resume.pdf": "/react-portfolio/static/media/Palak Devgan Resume.24e397b4d0450411bf1b.pdf",
     "static/media/cover-image.png": "/react-portfolio/static/media/cover-image.ccd3f36c4f61cae30f39.png",
@@ -11,6 +11,7 @@
     "static/media/likeit-listentoit.jpg": "/react-portfolio/static/media/likeit-listentoit.58d7b0cb38ff49c345e3.jpg",
     "static/media/bootstrap-icons.woff2?": "/react-portfolio/static/media/bootstrap-icons.f2539a501be3a673de05.woff2",
     "static/media/weather-dashboard.jpg": "/react-portfolio/static/media/weather-dashboard.d89ad91f2d6e4e5e253b.jpg",
+    "static/media/smart-shop.jpg": "/react-portfolio/static/media/smart-shop.2cb70994b1a327e82e23.jpg",
     "static/media/mern-book-search-engine.jpg": "/react-portfolio/static/media/mern-book-search-engine.765df44861f5f147f234.jpg",
     "static/media/jackedinthebox.jpg": "/react-portfolio/static/media/jackedinthebox.f659a13affcba5f47c97.jpg",
     "static/media/taskinator.jpg": "/react-portfolio/static/media/taskinator.93b26470e8ec7350b08f.jpg",
@@ -19,11 +20,11 @@
     "static/media/Photo.jpg": "/react-portfolio/static/media/Photo.071ba008fa3a4a5c61ad.jpg",
     "index.html": "/react-portfolio/index.html",
     "main.00d99e36.css.map": "/react-portfolio/static/css/main.00d99e36.css.map",
-    "main.af36be54.js.map": "/react-portfolio/static/js/main.af36be54.js.map",
+    "main.a809de33.js.map": "/react-portfolio/static/js/main.a809de33.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.00d99e36.css",
-    "static/js/main.af36be54.js"
+    "static/js/main.a809de33.js"
   ]
 }

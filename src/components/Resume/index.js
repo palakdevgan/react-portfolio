@@ -1,13 +1,13 @@
 import React from 'react'
 import MovingText from 'react-moving-text'
-import myresume from '../../assets/resume/Palak Devgan Resume.pdf';
+// import myresume from '../../assets/resume/Palak Devgan Resume.pdf';
 
 function Resume() {
   return (
     <div className="about">
       <h2>Resume</h2>
 
-      <h5>Download my resume <a href={myresume} target="_blank"  rel="noopener noreferrer">here</a></h5>
+      {/* <h5>Download my resume <a href={myresume} target="_blank"  rel="noopener noreferrer">here</a></h5> */}
       <h5> <MovingText
         type="typewriter"
         iteration={1}
