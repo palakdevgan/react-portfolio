@@ -1,9 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.00d99e36.css",
-    "main.js": "/react-portfolio/static/js/main.a809de33.js",
+    "main.js": "/react-portfolio/static/js/main.06d9814b.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
-    "static/media/Palak Devgan Resume.pdf": "/react-portfolio/static/media/Palak Devgan Resume.24e397b4d0450411bf1b.pdf",
     "static/media/cover-image.png": "/react-portfolio/static/media/cover-image.ccd3f36c4f61cae30f39.png",
     "static/media/mvc-tech-blog.jpg": "/react-portfolio/static/media/mvc-tech-blog.9843948b745dc569c620.jpg",
     "static/media/bootstrap-icons.woff?": "/react-portfolio/static/media/bootstrap-icons.7ff3ca6fa798de3f8ac2.woff",
@@ -20,11 +19,11 @@
     "static/media/Photo.jpg": "/react-portfolio/static/media/Photo.071ba008fa3a4a5c61ad.jpg",
     "index.html": "/react-portfolio/index.html",
     "main.00d99e36.css.map": "/react-portfolio/static/css/main.00d99e36.css.map",
-    "main.a809de33.js.map": "/react-portfolio/static/js/main.a809de33.js.map",
+    "main.06d9814b.js.map": "/react-portfolio/static/js/main.06d9814b.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.00d99e36.css",
-    "static/js/main.a809de33.js"
+    "static/js/main.06d9814b.js"
   ]
 }
